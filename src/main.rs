@@ -1,7 +1,7 @@
 use image::GenericImageView;
 
 fn main() {
-    let img = image::open("path/to/your/image.png").unwrap();
+    let img = image::open("assets/your_image.png").unwrap(); // Update the path to your actual image file
     let (width, height) = img.dimensions();
 
     for y in 0..height {
